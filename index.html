@@ -192,6 +192,29 @@
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <button class="button-close" data-modal-close><svg class="icon-close" width="11px" height="11px"><use href="./images/sprite.svg#close"></use></svg></button>
+                <form class="modal-form">
+                    <p>Оставьте свои данные, мы вам перезвоним</p>
+                    <div class="contact-modal">
+                        <label for="username">Имя</label>
+                        <input type="text" name="username" id="username" />
+                        
+                        <label for="phone_number">Телефон</label>
+                        <input type="tel" name="phone_number" id="phone_number" />
+                        
+                        <label for="email">Почта</label>
+                        <input type="email" name="email" id="email" />
+                        
+                        <label for="feedback">Комментарий</label>
+                        <textarea name="feedback" rows="5" id="feedback" placeholder="Введите текст"></textarea>
+                    </div>
+                    <div class="checkbox-agreement">
+                        <input type="checkbox" name="agreement" id="agreement" />
+                        <label for="agreement">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                    </div>
+                    <button type="submit">Отправить</button>
+                    </div>
+                </form>
+
             </div>
         </div>
         <script src="./js/modal.js"></script>   
