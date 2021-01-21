@@ -920,9 +920,10 @@ img {
 }
 
 .form-fild:hover .icon,
-.form-fild:focus .icon {
+.form-fild input:focus + .icon {
     fill: #2196F3;
 }
+
 
 
 .form-fild textarea {
